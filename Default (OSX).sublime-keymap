@@ -1,0 +1,7 @@
+[
+    { "keys": ["ctrl+super+m"], "command": "markmon_toggle", "args":
+        {
+            "enable": true
+        }
+    }
+]

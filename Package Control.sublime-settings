@@ -1,0 +1,21 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Codecs33",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"HTML5",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Markmon real-time markdown preview",
+		"Package Control",
+		"SideBarEnhancements",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"Tomorrow Color Schemes"
+	]
+}

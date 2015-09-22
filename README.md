@@ -200,6 +200,28 @@
 
 这里的渲染扩展，可以查看上面的说明选择关闭或者开启。  
 
+2. sftp  
+
+command+shift+p出现搜索框，输入install package，输入sftp可以找到sftp插件  
+
+安装好后，执行File -> SFTP/FTP -> Setup Server来生成配置文件  
+
+保存后，点击菜单File -> SFTP/FTP -> Browse Server来连接远程服务器。  
+
+注意端口为22，路径需要使用绝对路径：  
+
+    "remote_path": "/home/name/"  
+
+> Setup Server生成的配置文件，应该放在菜单Preferences > Browse Packages...下的User/sftp_servers目录中。
+ 
+附上万能注册码，设置Setting - User中:  
+
+```  
+{
+    "email" : "xiaosong@xiaosong.me",
+    "sftp"  :  "d419f6-de89e9-0aae59-2acea1-07f92a"
+}
+``` 
 
 
 未解决的问题：  

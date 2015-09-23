@@ -36,7 +36,7 @@
 1. MarkdownEditing  
 >这是必装的，否则没有好看的背景，就没有了写作的动力。  
 
-  2. Markmon  real-time markdown perview  
+2. Markmon  real-time markdown perview  
 就是这个插件，可以让所见即所得，先来一张官网上的图    
 ![](https://packagecontrol.io/readmes/img/11c350617e7bdfe32be854f8f77239678ecfb54a.gif)  
 
@@ -82,7 +82,7 @@
     ]
    
 
-  3.还可以再安装Markdown Preview来预览自己写的markdown。    
+3.还可以再安装Markdown Preview来预览自己写的markdown。    
 
 4.之前安装的Markmon插件，虽然可以正常使用，但是需要机器上安装markmon、node、还要有pandoc等等。我发现一个不用安装很多东西的插件，再来记录一次，因为我改成这个新的插件了。  
 

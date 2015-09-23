@@ -36,30 +36,30 @@
 1. MarkdownEditing  
 >这是必装的，否则没有好看的背景，就没有了写作的动力。  
 
-~~2. Markmon  real-time markdown perview  
-就是这个插件，可以让所见即所得，先来一张官网上的图~~  
+  2. Markmon  real-time markdown perview  
+就是这个插件，可以让所见即所得，先来一张官网上的图    
 ![](https://packagecontrol.io/readmes/img/11c350617e7bdfe32be854f8f77239678ecfb54a.gif)  
 
-~~[有关介绍](https://packagecontrol.io/packages/Markmon%20real-time%20markdown%20preview)  ~~
+  [有关介绍](https://packagecontrol.io/packages/Markmon%20real-time%20markdown%20preview)    
 
-~~先在SublimeText3中安装Markmon插件~~ 
+  先在SublimeText3中安装Markmon插件   
 
-~~其次在OSX系统中安装markmon~~  
+  其次在OSX系统中安装markmon    
 
 `npm install -g markmon`  
 
-~~需要nodejs环境支持~~  
+  需要nodejs环境支持    
 
 `brew install node`  
 
-~~最后在安装用于格式转换的软件pandoc~~  
+  最后在安装用于格式转换的软件pandoc    
 [下载地址](https://github.com/jgm/pandoc/releases/download/1.13.2/pandoc-1.13.2-osx.pkg)  
 
-~~简单设置一下:~~  
+  简单设置一下:    
 
 ｀Preferences > Package Settings > markmon > Settings - User｀   
 
-~~设置以下样式: ~~ 
+  设置以下样式:    
 
     {
     //On Windows try "markmon.cmd" if you get errors.
@@ -71,7 +71,7 @@
     "projectdir": null
     }   
 
-~~其次在`Preferences → Package Settings → Markmon → Key Bindings - Default`这里可以绑定快捷键。~~
+  其次在`Preferences → Package Settings → Markmon → Key Bindings - Default`这里可以绑定快捷键。  
 
     [
         { "keys": ["ctrl+super+m"], "command": "markmon_toggle", "args":
@@ -82,7 +82,7 @@
     ]
    
 
-~~3.还可以再安装Markdown Preview来预览自己写的markdown。 ~~ 
+  3.还可以再安装Markdown Preview来预览自己写的markdown。    
 
 4.之前安装的Markmon插件，虽然可以正常使用，但是需要机器上安装markmon、node、还要有pandoc等等。我发现一个不用安装很多东西的插件，再来记录一次，因为我改成这个新的插件了。  
 
@@ -171,7 +171,7 @@
         //   "toc": http://packages.python.org/Markdown/extensions/toc.html
         //   "nl2br": http://packages.python.org/Markdown/extensions/nl2br.html
         // - 3RD PARTY -
-        //   "strikeout": Strikeout extension syntax - `This ~~is deleted text.~~`
+        //   "strikeout": Strikeout extension syntax - `This   is deleted text.  `
         //   "subscript": Subscript extension syntax - `This is water: H~2~O`
         //   "superscript": Superscript extension syntax 0 `2^10^ = 1024`
         //   "smarty" or "smartypants": Python-Markdown extension using smartypants to emit
